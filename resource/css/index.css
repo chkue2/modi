@@ -36,7 +36,7 @@ header.mo{
   z-index: 9999;
   display: none;
 }
-side.mo{display: none;}
+.side.mo{display: none;}
 .header__wrap{
   height: 80px;
   justify-content: flex-start;
