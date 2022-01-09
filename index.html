@@ -19,7 +19,7 @@
     <script src="resource/js/index.js"></script>
   </head>
   <body>
-    <header>
+    <header class="pc">
       <div class="container container__flex header__wrap">
         <img src="resource/img/logo-modi-pc.svg" alt="LOGO">
         <a href="#">회사 소개</a>
@@ -28,13 +28,30 @@
         <a href="#">채용 공고</a>
       </div>
     </header>
+    <header class="mo">
+      <div class="container container__flex header__wrap">
+        <img src="resource/img/logo-modi-mobile.svg" alt="LOGO">
+        <i class="header__menu"></i>
+      </div>
+    </header>
+    <div class="side mo">
+      <div class="side__bg"></div>
+      <div class="side__container">
+        <p class="close__box"><i class="side__close"></i></p>
+        <a href="#">회사 소개</a>
+        <a href="#">새로운 소식</a>
+        <a href="#">자주 묻는 질문</a>
+        <a href="#">채용 공고</a>
+        <a href="#">앱 다운로드</a>
+      </div>
+    </div>
     <section>
       <div class="container container__flex section__01">
         <div class="container__flex container__left">
           <p class="left__title"
             data-aos="fade-up">
             같이 있는,<br>
-            가치 있는 즐거움. <b>모디!</b>
+            가치 있는 즐거움. <br class="mo"><b>모디!</b>
           </p>
           <p class="left__subtitle"
             data-aos="fade-up">이전에 없던 함께 하는 즐거움, 모디에서 즐기세요</p>
@@ -44,7 +61,8 @@
           </div>
         </div>
         <div class="container__right">
-          <img src="resource/img/img-01@3x.png" alt="TELIMG" class="">
+          <img src="resource/img/img-01@3x.png" alt="TELIMG" class="pc">
+          <img src="resource/img/img-mobile-01@3x.png" alt="TELIMG" class="mo">
         </div>
       </div>
     </section>
@@ -63,7 +81,7 @@
           data-aos-easing="ease">
           <p class="container__title">
             여러분의 즐거움,<br>
-            모디 친구와 함께 즐겨보세요
+            모디 친구와 함께 <br class="mo">즐겨보세요.
           </p>
           <p class="container__subtitle">
             여행, 취미생활부터 집 앞 산책까지 사소한 것도 괜찮아요<br>
@@ -103,7 +121,7 @@
           data-aos="fade-up"
           data-aos-duration="1500"
           data-aos-easing="ease">
-          <p class="container__title">가치 있는 즐거움! <b>모다!</b></p>
+          <p class="container__title">가치 있는 즐거움! <b>모디!</b></p>
           <p class="container__subtitle">우리의 이야기를 확인해보세요</p>
         </div>
         <div class="container__video">
@@ -150,7 +168,7 @@
         </div>
       </div>
     </section>
-    <section class="bg__lightblue">
+    <section class="bg__lightblue pc">
       <div class="container container__flex section__06">
         <div class="footer__container">
           <p class="footer__title"><span>웰키아이앤씨(주)</span></p>
@@ -172,6 +190,27 @@
         <div class="footer__container">
           <p class="footer__title"><span>고객센터</span></p>
           <p><a href="mailto:support@dayoff.ai">support@dayoff.ai</a></p>
+        </div>
+      </div>
+    </section>
+    <section class="bg__lightblue mo">
+      <div class="container container__flex section__06">
+        <div class="footer__container">
+          <p class="footer__title"><span>서비스</span></p>
+          <p id="footerAppMo"><span>앱 다운로드</span></p>
+          <p><a href="#">자주 묻는 질문</a></p>
+        </div>
+        <div class="footer__container">
+          <p class="footer__title"><span>고객센터</span></p>
+          <p><a href="mailto:support@dayoff.ai">support@dayoff.ai</a></p>
+        </div>
+        <div class="footer__container">
+          <p class="footer__title"><span>웰키아이앤씨(주)</span></p>
+          <p><span>대표이사 신수경</span><span>김보규</span></p>
+          <p><span>서울특별시 중구 청계천로 40, 810호(다동, 관광기업 지원센터)</span></p>
+          <p><span>650-86-01225</span></p>
+          <p><a href="#">서비스 이용약관</a><a href="#">개인정보 처리방침</a></p>
+          <p class="footer__copy"><span>ⓒ 2022 WelkeyINC. All Rights Reserved.</span></p>
         </div>
       </div>
     </section>
