@@ -97,6 +97,9 @@ header.mo .header__wrap img{
   display: flex;
   justify-content: flex-start;
 }
+.section__01 .container__left .left__img a + a{
+  margin-left: 16px;
+}
 .section__01 .container__left .left__img img{
   width: 172px;
 }
@@ -112,6 +115,7 @@ header.mo .header__wrap img{
 }
 .section__01 .container__right img.pc{display: block;}
 .section__01 .container__right img.mo{display: none;}
+.section__01 .download__mo{display: none;}
 .section__02{
   max-height: 800px;
 }
@@ -357,6 +361,34 @@ header.mo .header__wrap img{
   .section__01 .container__right img.pc{display: none;}
   .section__01 .container__right img.mo{display: block;}
 
+  .section__01 .download__mo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: #3378ff;
+    cursor: pointer;
+    position: absolute;
+    right: 16px;
+    bottom: 145px;
+  }
+  .section__01 .download__mo i{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icn-download.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 4px;
+  }
+  .section__01 .download__mo span{
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+  }
   .section__02{
     flex-direction: column-reverse;
     padding: 72px 16px;
