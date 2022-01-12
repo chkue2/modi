@@ -365,7 +365,7 @@ header.mo .header__wrap img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0;
+    margin-top: 0;  
   }
   .section__01 .container__right img{
     width: auto;
