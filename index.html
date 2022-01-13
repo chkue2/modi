@@ -57,7 +57,7 @@
             data-aos="fade-up">이전에 없던 함께 하는 즐거움, 모디에서 즐기세요</p>
           <div class="container__flex left__img">
             <a href="https://play.google.com/store/apps/details?id=com.welkey.moim" target="blank"><img src="resource/img/icn-google-2@3x.png" alt="GOOGLE"></a>
-            <a onclick="moveToDownload()"><img src="resource/img/icn-apple-2@3x.png" alt="APPLE"></a>
+            <a onclick="iosAlert()"><img src="resource/img/icn-apple-2@3x.png" alt="APPLE"></a>
           </div>
         </div>
         <div class="container__right">
@@ -188,7 +188,7 @@
           <p class="footer__title"><span>서비스</span></p>
           <p id="footerApp"><span>앱 다운로드</span></p>
           <p class="footer__app">
-            <a>앱스토어</a><br>
+            <a onclick="iosAlert()">앱스토어</a><br>
             <a href="https://play.google.com/store/apps/details?id=com.welkey.moim" target="blank">구글플레이</a>
           </p>
           <p><a href="https://bogyu.notion.site/73e4718f7e934a58877b696e91e69592" target="blank">자주 묻는 질문</a></p>
@@ -233,6 +233,10 @@
           return false
         }
         window.open('https://play.google.com/store/apps/details?id=com.welkey.moim', 'blank')
+      }
+      const iosAlert = () => {
+          alert('IOS 앱은 준비중입니다.')
+          return false
       }
     </script>
   </body>
