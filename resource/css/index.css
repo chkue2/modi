@@ -97,6 +97,7 @@ header.mo .header__wrap img{
   display: flex;
   justify-content: flex-start;
 }
+.section__01 .container__left a{cursor: pointer;}
 .section__01 .container__left .left__img a + a{
   margin-left: 16px;
 }
